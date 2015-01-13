@@ -3,7 +3,7 @@ import ddf.minim.signals.*;
 
 Minim minim;
 AudioOutput out;
-SineWave wave;
+TriangleWave wave;
 String msg = "Hello World!";
 String bits = "";
 char lastBit = 0;
@@ -17,7 +17,7 @@ void setup ()
   background(0);
   minim = new Minim(this);
   out = minim.getLineOut(Minim.STEREO);
-  wave = new SineWave(0,0.5,out.sampleRate());
+  wave = new TriangleWave(0,0.5,out.sampleRate());
   out.addSignal (wave);
   
   font = createFont ("monospaced",16);
@@ -28,7 +28,7 @@ void setup ()
   
   bits = convertMsg (msg);
   
-  frameRate (8);
+  frameRate (4);
 }
 
 void draw ()
