@@ -1,4 +1,4 @@
-##Sound Transfer
+#Sound Transfer
 
 Sound Transfer transmits data between computers using your speaker and microphone.
 
