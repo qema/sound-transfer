@@ -2,6 +2,8 @@
 
 Sound Transfer transmits data between computers using your speaker and microphone.
 
+![Sound Transfer](http://wanganzhou.com/images/sound-transfer/screenshot.png)
+
 Method: transmitter sends message as a series of pitches following a simple protocol. Receiver detects the pitches through Fourier transforms, and converts back into ASCII text format.
 
 Requires [Minim](http://code.compartmental.net/tools/minim/), [Ess](http://www.tree-axis.com/Ess/download.html) libraries (simply download and put in your Processing libraries/ folder.)
