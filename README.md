@@ -4,7 +4,7 @@ Sound Transfer transmits data between computers using your speaker and microphon
 
 ![Sound Transfer](http://wanganzhou.com/images/sound-transfer/screenshot.png)
 
-Method: transmitter sends message as a series of pitches following a simple protocol. Receiver detects the pitches through Fourier transforms, and converts back into ASCII text format.
+Method: transmitter sends message as a series of pitches following a melodic, pitch-based protocol. Receiver detects the pitches through Fourier transforms, and converts back into ASCII text format. Hear your messages converted to melodies!
 
 Requires [Minim](http://code.compartmental.net/tools/minim/), [Ess](http://www.tree-axis.com/Ess/download.html) libraries (simply download and put in your Processing libraries/ folder.)
 
